@@ -17,7 +17,7 @@ private:
 	std::vector< std::vector<int> > board;
 	void toggleTurn();
 	bool inBounds(int,int);
-	
+
 public:
 	static const Piece INVALID = -1;
 	static const Piece EMPTY = 0;
